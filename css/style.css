@@ -43,6 +43,8 @@ a {
 .button {
     color: white;
     background-color: #0061FF;
+    border: none;
+    padding: 10px;
 }
 
 /* Main */
@@ -73,12 +75,7 @@ a {
     gap: 15px;
 }
 
-.hero__text .button {
-    border: none;
-    padding: 10px;
-}
-
-.icon {
+.arrow {
     font-size: 36px;
 }
 
@@ -99,6 +96,46 @@ a {
 
 .price label {
     padding-right: 50px;
+}
+
+/* Carta */
+.card {
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.card__header {
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.card__header h3 {
+    font-size: 12px;
+    line-height: 40px;
+}
+
+.card__content {
+    padding: 30px;
+}
+
+.card__content h3 {
+    font-size: 12px;
+}
+
+.card__content h4 {
+    font-size: 12px;
+    color: #BBC5D2;
+}
+
+.card__content p {
+    font-size: 13px;
+}
+
+.card__content a {
+    text-decoration: underline;
+    color: blue;
 }
 
 /* Footer */
