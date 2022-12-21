@@ -98,16 +98,22 @@ a {
     padding-right: 50px;
 }
 
+.col-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px 0px;
+}
+
 /* Carta */
 .card {
     width: 300px;
-    border: 1px solid black;
+    border: 1px solid #e4e4e4;
 }
 
 .card__header {
-    height: 40px;
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #e4e4e4;
 }
 
 .card__info {
@@ -159,7 +165,7 @@ a {
 }
 
 .card__content p {
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .card__content a {
@@ -169,6 +175,23 @@ a {
 
 .card__content hr {
     width: 20%;
+}
+
+.horizontal {
+    width: 100%;
+}
+
+.horizontal .card__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.horizontal .card__info {
+    flex-basis: 70%;
+}
+
+.horizontal .buy {
+    flex-basis: 30%;
 }
 
 /* Footer */
