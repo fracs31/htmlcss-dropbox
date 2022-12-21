@@ -101,7 +101,6 @@ a {
 /* Carta */
 .card {
     width: 300px;
-    height: 500px;
     border: 1px solid black;
 }
 
@@ -109,6 +108,36 @@ a {
     height: 40px;
     text-align: center;
     border-bottom: 1px solid black;
+}
+
+.card__info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.start-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.more-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.buy {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.last-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .card__header h3 {
@@ -136,6 +165,10 @@ a {
 .card__content a {
     text-decoration: underline;
     color: blue;
+}
+
+.card__content hr {
+    width: 20%;
 }
 
 /* Footer */
