@@ -18,22 +18,33 @@ a {
     color: currentColor;
 }
 
+.big-container {
+    max-width: 1255px;
+    margin: 0px auto;
+}
+
+.small-container {
+    max-width: 1040px;
+    margin: 0px auto;
+}
+
 /* Header */
 .main-header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 10px;
-}
-
-.navbar {
-    border: 1px solid black;
+    padding: 15px;
 }
 
 .navbar li {
     display: inline;
-    padding: 5px;
-    border: 1px solid red;
+    vertical-align: middle;
+    padding: 5px 10px;
+}
+
+li.button {
+    color: white;
+    background-color: #0061FF;
 }
 
 /* Main */
