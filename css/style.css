@@ -93,7 +93,13 @@ a {
 }
 
 /* Sezione Price */
+.price .row {
+    margin-bottom: 20px;
+}
 
+.price label {
+    padding-right: 50px;
+}
 
 /* Footer */
 .page-footer {
