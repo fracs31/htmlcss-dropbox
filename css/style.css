@@ -67,6 +67,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: flex-end;
     gap: 15px;
 }
 
@@ -89,14 +90,18 @@ a {
     margin-bottom: 20px;
 }
 
+.price h2 {
+    font-size: 32px;
+}
+
 .price label {
     padding-right: 50px;
 }
 
 .col-cards {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 50px 0px;
 }
 
@@ -195,6 +200,6 @@ a {
 
 /* Footer */
 .page-footer {
-    background-color: darksalmon;
+    background-color: black;
     padding: 5px;
 }
