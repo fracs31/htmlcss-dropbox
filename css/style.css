@@ -60,11 +60,6 @@ a {
 
 .row {
     display: flex;
-    border: 2px solid black;
-}
-
-.col {
-    border: 2px dashed red;
 }
 
 .hero__text {
@@ -175,6 +170,10 @@ a {
 
 .card__content hr {
     width: 20%;
+}
+
+.card__content span {
+    color: #0061FF;
 }
 
 .horizontal {
