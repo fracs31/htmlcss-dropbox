@@ -1,4 +1,3 @@
-/* Regole generali */
 * {
     margin: 0px;
     padding: 0px;
@@ -48,9 +47,17 @@ li.button {
 }
 
 /* Main */
-.main-content {
-    background-color: cornflowerblue;
-    padding: 5px;
+.hero {
+    background-color: #B4D0E7;
+    padding: 10px;
+}
+
+.row {
+    border: 1px solid blueviolet;
+}
+
+.col {
+    border: 1px dashed green;
 }
 
 /* Footer */
