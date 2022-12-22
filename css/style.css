@@ -252,16 +252,16 @@ img {
     margin-right: 50px;
 }
 
-.info {
+.partner {
     padding-top: 100px;
     border: 1px solid black;
 }
 
-.info__image {
+.partner__image {
     flex-basis: 60%;
 }
 
-.info__description {
+.partner__description {
     flex-basis: 40%;
     display: flex;
     flex-direction: column;
@@ -269,12 +269,12 @@ img {
     padding-top: 50px;
 }
 
-.info__partner-button {
+.partner__button {
     border: 1px solid black;
     max-width: fit-content;
     padding: 10px;
 }
 
-.info__image img {
+.partner__image img {
     width: 100%;
 }
