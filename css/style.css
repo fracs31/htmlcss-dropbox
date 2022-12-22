@@ -162,6 +162,21 @@ img {
     gap: 30px;
 }
 
+.col-12 .card__main {
+    flex-direction: row;
+}
+
+.col-12 .card__main-content {
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.col-12 .card__buy-option {
+    flex-basis: 40%;
+}
+
 .card__start-info {
     display: flex;
     flex-direction: column;
