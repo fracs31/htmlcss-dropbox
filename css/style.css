@@ -253,7 +253,7 @@ img {
 }
 
 .partner {
-    padding-top: 100px;
+    padding: 100px 0px;
     border: 1px solid black;
 }
 
@@ -277,4 +277,26 @@ img {
 
 .partner__image img {
     width: 100%;
+}
+
+.info .col {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px 0px;
+    width: 100%;
+}
+
+.info__card {
+    width: 300px;
+}
+
+.info__card--head img {
+    width: 100%;
+}
+
+.info__card--main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
