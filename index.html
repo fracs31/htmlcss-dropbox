@@ -9,77 +9,76 @@
     <title>Dropbox</title>
 </head>
 <body>
-
     <!-- Header -->
     <header class="main-header">
         <!-- Navbar -->
-        <div class="navbar">
+        <nav class="nav nav-header">
             <!-- Lista -->
-            <ul>
-                <li><img src="./img/logo-small.png" alt="Logo"></li>
-                <li><a href="#">Perch&#233; Dropbox</a></li>
-                <li><a href="#">Funzioni</a></li>
-                <li><a href="#">Piani e Prezzi</a></li>
+            <ul class="nav__menu menu">
+                <li class="menu__item menu__item--logo"><a href="#"><img class="logo" src="./img/logo-small.png" alt="Logo"></a></li>
+                <li class="menu__item"><a href="#">Perchè Dropbox</a></li>
+                <li class="menu__item"><a href="#">Funzioni</a></li>
+                <li class="menu__item"><a href="#">Piani e Prezzi</a></li>
             </ul>
-        </div>
+        </nav>
         <!-- Navbar -->
-        <div class="navbar">
+        <nav class="nav nav-header">
             <!-- Lista -->
-            <ul>
-                <li><a href="#">Supporto</a></li>
-                <li><a href="#">Contatta l'ufficio vendite</a></li>
-                <li><a href="#">Accedi</a></li>
-                <li class="button"><a href="#">Inizia</a></li>
+            <ul class="nav__menu menu">
+                <li class="menu__item"><a href="#">Supporto</a></li>
+                <li class="menu__item"><a href="#">Contatta l'ufficio vendite</a></li>
+                <li class="menu__item"><a href="#">Accedi</a></li>
+                <li class="menu__item button--blue"><a href="#">Inizia</a></li>
             </ul>
-        </div>
+        </nav>
     </header>
-
     <!-- Main -->
-    <main class="main-content">
-        <!-- Sezione -->
-        <section class="hero">
+    <main>
+        <!-- Hero -->
+        <section class="section hero">
             <!-- Container grande -->
-            <div class="big-container">
+            <div class="container-lg">
                 <!-- Riga -->
-                <div class="row">
+                <div class="row no-gutter">
                     <!-- Colonna -->
-                    <div class="col">
+                    <div class="col-12">
                         <!-- Titolo -->
-                        <h1>Tutto ci&#242; che ti serve per il lavoro, in un unico posto</h1>
+                        <h1 class="hero__title">Tutto ciò che ti serve per il lavoro in unico posto</h1>
                     </div>
-                </div>
-                <!-- Riga -->
-                <div class="row">
+                    <!-- </div>
+                    <div class="row"> -->
                     <!-- Colonna -->
-                    <div class="col">
-                        <div class="hero__text">
-                            <p>
-                                Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto.
-                                Dropbox Business &#232; pi&#249; di uno spazio di archiviazione sicuro: &#232; un modo intelligente
-                                e integrato per ottimizzare il flusso di lavoro esistente.
-                            </p>
-                            <button class="button">Inizia la tua prova gratuita</button>
-                            <span><a href="#">Annulla in qualsiasi momento</a></span>
-                            <span class="arrow"><i class="fa-solid fa-arrow-down"></i></span>
-                        </div>
+                    <div class="col hero__description">
+                        <!-- Descrizione -->
+                        <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto.
+                            Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente ed integrato
+                            per ottimizzare il flusso di lavoro esistente.
+                        </p>
+                        <!-- Bottone -->
+                        <a href="#" class="button button--blue">Inizia la tua prova gratutita</a>
+                        <!-- Annulla -->
+                        <p>Annulla in qualsiasi momento</p>
+                        <!-- Icona -->
+                        <span><i class="fa-solid fa-arrow-down"></i></span>
                     </div>
                     <!-- Colonna -->
-                    <div class="col">
-                        <div class="hero__img">
-                            <img src="./img/jumbo.png" alt="Jumbo">
-                        </div>
+                    <div class="col hero__image">
+                        <!-- Immagine -->
+                        <figure>
+                            <img src="./img/jumbo.png" alt="Screenshot">
+                        </figure>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Sezione -->
-        <section class="price">
+        <!-- Abbonamenti -->
+        <section class="section plans">
             <!-- Container piccolo -->
-            <div class="small-container">
+            <div class="container">
                 <!-- Riga -->
                 <div class="row">
-                    <!-- Colonna -->
-                    <div class="col">
+                    <!-- Riga -->
+                    <div class="col-12">
                         <!-- Sottotitolo -->
                         <h2>Trova il piano business che fa per te</h2>
                     </div>
@@ -87,7 +86,8 @@
                 <!-- Riga -->
                 <div class="row">
                     <!-- Colonna -->
-                    <div class="col">
+                    <div class="col-12">
+                        <!-- Input radio -->
                         <input type="radio">
                         <label>Fatturazione mensile</label>
                         <input type="radio">
@@ -97,163 +97,50 @@
                 <!-- Riga -->
                 <div class="row">
                     <!-- Colonna -->
-                    <div class="col-cards">
+                    <div class="col-4">
                         <!-- Carta -->
                         <div class="card">
                             <!-- Intestazione della carta -->
                             <div class="card__header">
-                                <h3><i class="fa-solid fa-user"></i> Singolo</h3>
+                                <h3 class="header__title"><i class="fa-solid fa-user"></i> Singolo</h3>
                             </div>
-                            <!-- Contenuta della carta -->
-                            <div class="card__content">
-                                <div class="card__info">
-                                    <!-- Informazioni iniziali -->
-                                    <div class="start-info">
-                                        <h2>Professional</h2>
-                                        <h3>€ 12,00</h3>
-                                        <h4>/mese</h4>
-                                    </div>
-                                    <!-- Informazioni aggiuntive -->
-                                    <div class="more-info">
-                                        <p><i class="fa-solid fa-user"></i> 1 utente</p>
-                                        <p><i class="fa-solid fa-folder"></i> 5TB di spazio di archiviazione sicuro</p>
-                                        <p><i class="fa-solid fa-share-nodes"></i> Funzioni di produttivit&#224; premium e 
-                                            condivisione di file semplice e sicura
-                                        </p>
-                                    </div>
-                                    <!-- Comprare -->
-                                    <div class="buy">
-                                        <button class="button">Prova gratis per 30 giorni</button>
-                                        <p>oppure <a href="#">acquista ora</a></p>
-                                    </div>
-                                    <!-- Linea -->
-                                    <hr>
-                                    <!-- Informazioni finali -->
-                                    <div class="last-info">
-                                        <h3>Punti Salienti del piano</h3>
-                                        <p><span><i class="fa-solid fa-check"></i></span>Invia file a 100 GB con Dropbox Transfert</p>
-                                        <p><span><i class="fa-solid fa-check"></i></span> Cartelle offline su dispositivi mobili</p>
-                                    </div>
-                                </div>
+                            <!-- Contenuto della carta -->
+                            <div class="card__main">
+                                <h4 class="main__title">Professional</h4>
+                                <h5 class="main__subtitle--price">€ 12,00</h5>
+                                <h6 class="main__subtitle--offert">/mese</h6>
                             </div>
                         </div>
+                    </div>
+                    <!-- Colonna -->
+                    <div class="col-4">
                         <!-- Carta -->
                         <div class="card">
-                            <!-- Intestazione della carta -->
-                            <div class="card__header">
-                                <h3><i class="fa-solid fa-users"></i> Team</h3>
-                            </div>
-                            <!-- Contenuta della carta -->
-                            <div class="card__content">
-                                <div class="card__info">
-                                    <!-- Informazioni iniziali -->
-                                    <div class="start-info">
-                                        <h2>Advanced</h2>
-                                        <h3>€ 18,00</h3>
-                                        <h4>/utente/mese</h4>
-                                    </div>
-                                    <!-- Informazioni aggiuntive -->
-                                    <div class="more-info">
-                                        <p><i class="fa-solid fa-users"></i> 3 o pi&#249; utenti</p>
-                                        <p><i class="fa-solid fa-folder"></i> Tutto lo spazio di cui ha bisogno il tuo team</p>
-                                        <p><i class="fa-solid fa-share-nodes"></i> Sofisticate funzioni di controllo e per tenere 
-                                            al sicuro tutti i file del tuo team
-                                        </p>
-                                    </div>
-                                    <!-- Comprare -->
-                                    <div class="buy">
-                                        <button class="button">Prova gratis per 30 giorni</button>
-                                        <p>oppure <a href="#">acquista ora</a></p>
-                                    </div>
-                                    <!-- Linea -->
-                                    <hr>
-                                    <!-- Informazioni finali -->
-                                    <div class="last-info">
-                                        <h3>Punti Salienti del piano</h3>
-                                        <p><span><i class="fa-solid fa-check"></i></span>Nessun limite di spazio per i file</p>
-                                        <p><span><i class="fa-solid fa-check"></i></span> Cartelle offline su dispositivi mobili</p>
-                                        <p><span><i class="fa-solid fa-check"></i></span> Risparmio del 50% rispetto alle iscrizioni singole</p>
-                                        <p><span><i class="fa-solid fa-check"></i></span> Possibilit&#224; di inserire nuovi membri del team</p>
-                                        <p><span><i class="fa-solid fa-check"></i></span> Gestione dei permessi in base ai ruoli</p>
-                                    </div>
-                                </div>
-                            </div>
+                            piano 2
                         </div>
+                    </div>
+                    <!-- Colonna -->
+                    <div class="col-4">
                         <!-- Carta -->
                         <div class="card">
-                            <!-- Intestazione della carta -->
-                            <div class="card__header">
-                                <h3><i class="fa-solid fa-building"></i> Azienda</h3>
-                            </div>
-                            <!-- Contenuta della carta -->
-                            <div class="card__content">
-                                <div class="card__info">
-                                    <!-- Informazioni iniziali -->
-                                    <div class="start-info">
-                                        <h2>Enterprise</h2>
-                                        <h3>Contattaci</h3>
-                                        <h4>-</h4>
-                                    </div>
-                                    <!-- Informazioni aggiuntive -->
-                                    <div class="more-info">
-                                        <p><i class="fa-solid fa-user"></i> 10 o pi&#249; utenti</p>
-                                        <p><i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda</p>
-                                        <p><i class="fa-solid fa-share-nodes"></i> Assistenza personalizzata per aiutare gli amministratori
-                                            in una gestione su larga scala
-                                        </p>
-                                    </div>
-                                    <!-- Comprare -->
-                                    <div class="buy">
-                                        <button class="button">Contattaci</button>
-                                        <p>oppure <a href="#">acquista ora</a></p>
-                                    </div>
-                                    <!-- Linea -->
-                                    <hr>
-                                    <!-- Informazioni finali -->
-                                    <div class="last-info">
-                                        <h3>Punti Salienti del piano</h3>
-                                        <p><span><i class="fa-solid fa-check"></i></span> Cartelle offline su dispositivi mobili</p>
-                                        <p><span><i class="fa-solid fa-check"></i></span> Servizio assistenza 24/h</p>
-                                        <p><span><i class="fa-solid fa-check"></i></span> Possibilit&#224; di personalizzazione totale</p>
-                                    </div>
-                                </div>
-                            </div>
+                            piano 3
                         </div>
+                    </div>
+                    <!-- Colonna -->
+                    <div class="col-12">
                         <!-- Carta -->
-                        <div class="card horizontal">
-                            <!-- Intestazione della carta -->
-                            <div class="card__header">
-                                <h3><i class="fa-solid fa-building"></i> Team</h3>
-                            </div>
-                            <!-- Contenuta della carta -->
-                            <div class="card__content">
-                                <div class="card__info">
-                                    <!-- Informazioni iniziali -->
-                                    <div class="start-info">
-                                        <h2>Enterprise</h2>
-                                        <h3>Contatta l'ufficio vendite per i prezzi</h3>
-                                    </div>
-                                    <!-- Informazioni finali -->
-                                    <div class="last-info">
-                                        <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti
-                                            IT nella gestione su qualsiasi scala.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="buy">
-                                    <button class="button">Contatta l'ufficio vendite</button>
-                                </div>
-                            </div>
+                        <div class="card">
+                            piano 4
                         </div>
                     </div>
                 </div>
             </div>
+
         </section>
 
     </main>
 
-    <!-- Footer -->
-    <footer class="page-footer">
+    <footer>
 
     </footer>
 
