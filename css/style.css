@@ -94,6 +94,7 @@ img {
 
 .col-4 {
     flex-basis: calc(100% / 3);
+    display: flex;
 }
 
 .col-12 {
@@ -136,6 +137,8 @@ img {
 
 .card {
     border: 1px solid #e4e4e4;
+    display: flex;
+    flex-direction: column;
 }
 
 .card hr {
@@ -167,7 +170,7 @@ img {
 
 .card__main-info li,
 .card__details li {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .card__main-info ul,
