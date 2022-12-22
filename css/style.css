@@ -65,6 +65,7 @@ img {
 .container {
     max-width: 1040px;
     margin: 0px auto;
+    border: 1px solid red;
 }
 
 .container-lg {
@@ -249,4 +250,31 @@ img {
 
 .plans label {
     margin-right: 50px;
+}
+
+.info {
+    padding-top: 100px;
+    border: 1px solid black;
+}
+
+.info__image {
+    flex-basis: 60%;
+}
+
+.info__description {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.info__partner-button {
+    border: 1px solid black;
+    max-width: fit-content;
+    padding: 10px;
+}
+
+.info__image img {
+    width: 100%;
 }
