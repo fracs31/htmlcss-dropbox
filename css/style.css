@@ -419,3 +419,34 @@ img {
     color: black;
     line-height: 50px;
 }
+
+.section.questions {
+    padding: 100px 0px;
+}
+
+.row.questions {
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+
+.row.questions:nth-child(2) {
+    border-top: 2px solid #F3F3F3;
+}
+
+.row.questions:nth-child(2),
+.row.questions:nth-child(3),
+.row.questions:nth-child(4) {
+    border-bottom: 1px solid black
+}
+
+.questions h2 {
+    font-size: 28px;
+}
+
+.questions p {
+    font-weight: bold;
+}
+
+.questions span {
+    font-size: 12px
+}
