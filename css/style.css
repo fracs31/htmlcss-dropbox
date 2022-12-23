@@ -324,3 +324,74 @@ img {
 .col.business.lg {
     flex-basis: 50%;
 }
+
+.row.company {
+    margin: 0px;
+}
+
+.col.company {
+    flex-basis: calc( 100% / 3);
+}
+
+.company__description {
+    border: 1px solid violet;
+    height: 100%;
+    background-color: #F5F5F5;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.company__list {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.company__item {
+    flex-basis: 50%;
+    border: 4px solid fuchsia;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.company__item img {
+    width: max-content;
+    height: max-content;
+    filter: invert(100%);
+}
+
+#designit {
+    background-color: #A2D39B;
+}
+
+#arizona {
+    background-color: #61082B;
+}
+
+#florida {
+    background-color: #0093CE;
+}
+
+#topps {
+    background-color: #FF1C1C;
+}
+
+#world_bicycle {
+    background-color: #D5001F;
+}
+
+#hearst {
+    background-color: #B4D0E7;
+}
+
+#lonely_planet {
+    background-color: #0D2481;
+}
+
+#clear_channel {
+    background-color: #FFD830;
+}
