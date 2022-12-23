@@ -140,6 +140,7 @@ img {
     border: 1px solid #e4e4e4;
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 .card hr {
